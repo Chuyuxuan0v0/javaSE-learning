@@ -15,7 +15,6 @@ public class Main {
         // ⚠️ String 是一个类，并不是一个基本类型！ 用双引号表示。
         String Terms = "你不是一个人";
         // 字符'1'，表示的是ascii 码上的字符，有一个一一映射的关系。
-
         // float 小数类型
         /*  System.out.println(Terms);
           System.out.println("hello World!");
