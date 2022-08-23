@@ -1,4 +1,4 @@
-public class Java {
+public class Main {
     public static void main(String[] args) {
 
         //  byte 8个bit , 1个字节 , ===> 8(bit) = 1(Byte) ===> 8b = 1B
@@ -16,8 +16,22 @@ public class Java {
         // 字符'1'，表示的是ascii 码上的字符，有一个一一映射的关系。
 
         // float 小数类型
-        System.out.println(Terms);
-        System.out.println("hello World!");
-        System.out.println("Test");
+        /*  System.out.println(Terms);
+          System.out.println("hello World!");
+          System.out.println("Test");
+
+        Student student = new Student();
+        student.Sing();
+        student.Eating();
+        student.name = "gsijfs";
+        student.About("hahahahh");
+        */
+        /* ===========================函数重载=========================== */
+        FunOverload test = new FunOverload();
+        test.a(1);   //直接输入整数
+        test.a(1.0);  //直接输入小数
+        short s = 2;
+        test.a(s);  //会对号入座吗？
+        test.a(1.0F);
     }
 }
