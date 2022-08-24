@@ -1,25 +1,27 @@
+package Study.Class;
+
 public class FunOverload {
-    void a(int i){
+   public void a(int i){
         System.out.println("调用了int");
     }
 
-    void a(short i){
+    public void a(short i){
         System.out.println("调用了short");
     }
 
-    void a(long i){
+    public void a(long i){
         System.out.println("调用了long");
     }
 
-    void a(char i){
+    public void a(char i){
         System.out.println("调用了char");
     }
 
-    void a(double i){
+    public void a(double i){
         System.out.println("调用了double");
     }
 
-    void a(float i){
+    public void a(float i){
         System.out.println("调用了float");
     }
 }

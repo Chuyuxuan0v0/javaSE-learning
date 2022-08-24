@@ -1,3 +1,5 @@
+package Study.Class;
+
 public class Student {
     String name;
     int age;
