@@ -1,6 +1,43 @@
-### 一个项目设置两个Git地址，实现同时推送到两个Git仓库
+## 目录介绍
+```shell
+.
+├── LICENSE
+├── README.md
+├── Study
+│   ├── Class
+│   │   ├── AboutString.java
+│   │   ├── Constructors.java
+│   │   ├── FunOverload.java
+│   │   ├── StaticVerb.java
+│   │   └── Student.java
+│   └── Main.java
+├── out
+│   └── production
+│       └── javaSE-learning
+│           ├── LICENSE
+│           ├── README.md
+│           ├── Study
+│           │   ├── Class
+│           │   │   ├── AboutString.class
+│           │   │   ├── Constructors.class
+│           │   │   ├── FunOverload.class
+│           │   │   ├── StaticVerb.class
+│           │   │   └── Student.class
+│           │   └── Main.class
+│           └── src
+│               └── top
+│                   └── Main.class                    // 这个是新的包
+└── src
+    └── top
+        └── Main.java
 
-#### 法一
+
+```
+
+
+
+#### 一个项目设置两个Git地址，实现同时推送到两个Git仓库
+
 给origin 增加一个可以push的地址
 ```git
 git remote set-url --add origin 地址 //给origin添加一个远程push地址，这样一次push就能同时push到两个地址上面
