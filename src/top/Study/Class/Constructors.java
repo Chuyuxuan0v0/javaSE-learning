@@ -1,4 +1,4 @@
-package Study.Class;
+package src.top.Study.Class;
 public class Constructors {
     public String name;
     public int Ages;

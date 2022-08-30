@@ -1,4 +1,4 @@
-package Study.Class;
+package src.top.Study.Class;
 
 // 这个章节专门讲String
 public class AboutString {

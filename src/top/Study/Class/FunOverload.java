@@ -1,4 +1,4 @@
-package Study.Class;
+package src.top.Study.Class;
 
 public class FunOverload {
    public void a(int i){

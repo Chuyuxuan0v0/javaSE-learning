@@ -1,6 +1,4 @@
-package Study;
-
-import Study.Class.StaticVerb;
+package src.top.Study;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +22,7 @@ public class Main {
          * System.out.println("hello World!");
           System.out.println("Test");
 
-        Study.Class.Student student = new Study.Class.Student();
+        src.top.Study.Class.Student student = new src.top.Study.Class.Student();
         student.Sing();
         student.Eating();
         student.name = "sites";
